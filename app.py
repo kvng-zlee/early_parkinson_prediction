@@ -17,8 +17,9 @@ feature_names = joblib.load("feature_names.pkl")
 feature_means = joblib.load("feature_means.pkl")
 
 # Load test data (optional, for future dashboard analytics)
-X_test = joblib.load("X_test.pkl")
+X_test = joblib.load("x_test.pkl")
 y_test = joblib.load("y_test.pkl")
+
 
 # ================================
 # Streamlit UI
